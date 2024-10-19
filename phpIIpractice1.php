@@ -1,4 +1,5 @@
 <?php
+
 function calculateTotalPrice(array $items): float {
     $total = 0;
     foreach ($items as $item) {
@@ -32,4 +33,5 @@ function isEvenOrOdd(int $number): string {
 
 $number = 42;
 echo "\n" . isEvenOrOdd($number);
+
 ?>
